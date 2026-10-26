@@ -1,0 +1,3 @@
+[submodule "Audio8_TTS"]
+	path = Audio8_TTS
+	url = https://github.com/Audio8-AI/Audio8_TTS.git

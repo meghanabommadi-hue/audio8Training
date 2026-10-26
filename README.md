@@ -5,13 +5,16 @@ voice cloning from a short reference clip.
 
 This repo holds the scripts, configs, logs and small audio samples. It does **not** hold the model weights,
 checkpoints, ONNX exports, the encoded training data or the Python environment (see `.gitignore`). The official
-model code lives in [Audio8-AI/Audio8_TTS](https://github.com/Audio8-AI/Audio8_TTS); clone it next to this
-repo as `Audio8_TTS/`, because the training script imports its trainer.
+model code, [Audio8-AI/Audio8_TTS](https://github.com/Audio8-AI/Audio8_TTS) (Apache-2.0), is included as a
+git submodule in `Audio8_TTS/`, pinned to commit `07e40f5`, the version these runs used. The training script
+imports its trainer (`Audio8TTSTrainer` in `Audio8_TTS/audio8_tts_sft.py`) and data helpers
+(`Audio8_TTS/audio8_tts_data.py`).
 
 ## Layout
 
 | Path | What it is |
 | --- | --- |
+| `Audio8_TTS/` | Submodule: the official model, trainer and ONNX runtime code (`audio8_tts_sft.py`, `audio8_tts_data.py`) |
 | `finetune/prep_stream.py` | Data pipeline: streams the source dataset, filters it with Whisper, splits each clip into reference + target, encodes both with the Audio8 codec |
 | `finetune/run_prep.sh` | Starts supervised prep workers and the Hub sync in the background |
 | `finetune/sync_hub.py` | Uploads finished encoded shards to a private Hub dataset |
@@ -166,7 +169,8 @@ curl -N localhost:8030/v1/tts -H 'content-type: application/json' \
 ## Setup
 
 ```bash
-git clone https://github.com/Audio8-AI/Audio8_TTS.git      # next to this repo's files
+git clone --recursive https://github.com/meghanabommadi-hue/audio8Training.git   # brings Audio8_TTS/ too
+cd audio8Training                     # already cloned without --recursive? run: git submodule update --init
 python -m venv .venv && source .venv/bin/activate
 pip install -r Audio8_TTS/requirements-train.txt
 export HF_TOKEN=hf_...                                      # needed for the source dataset and Hub sync
