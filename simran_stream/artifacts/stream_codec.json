@@ -1,0 +1,11 @@
+{
+  "window": 128,
+  "conv_context": 8,
+  "hop": 2048,
+  "layers": 8,
+  "n_kv": 8,
+  "head_dim": 64,
+  "max_positions": 4096,
+  "sample_rate": 44100,
+  "created": "2026-10-13T19:55:58"
+}

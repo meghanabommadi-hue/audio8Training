@@ -1,0 +1,55 @@
+[0;93m2026-10-14 16:09:52.229060916 [W:onnxruntime:Default, device_discovery.cc:164 DiscoverDevicesForPlatform] GPU device discovery failed: device_discovery.cc:89 ReadFileContents Failed to open file: "/sys/class/drm/card5/device/vendor"[m
+INFO:     Started server process [746905]
+INFO:     Waiting for application startup.
+[server] engine 1/4 ready
+[server] engine 2/4 ready
+[server] engine 3/4 ready
+[server] engine 4/4 ready
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://127.0.0.1:8030 (Press CTRL+C to quit)
+INFO:     127.0.0.1:52584 - "GET /health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52600 - "POST /v1/tts HTTP/1.1" 200 OK
+INFO:     127.0.0.1:45242 - "POST /v1/tts HTTP/1.1" 200 OK
+INFO:     127.0.0.1:45252 - "POST /v1/tts HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58828 - "POST /v1/tts HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58836 - "POST /v1/tts HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58842 - "POST /v1/tts HTTP/1.1" 200 OK
+INFO:     127.0.0.1:41536 - "POST /v1/tts HTTP/1.1" 200 OK
+INFO:     127.0.0.1:41552 - "POST /v1/tts HTTP/1.1" 200 OK
+INFO:     127.0.0.1:41562 - "POST /v1/tts HTTP/1.1" 200 OK
+INFO:     127.0.0.1:41572 - "POST /v1/tts HTTP/1.1" 200 OK
+INFO:     127.0.0.1:42234 - "POST /v1/tts HTTP/1.1" 200 OK
+INFO:     127.0.0.1:42248 - "POST /v1/tts HTTP/1.1" 200 OK
+INFO:     127.0.0.1:42258 - "POST /v1/tts HTTP/1.1" 200 OK
+INFO:     127.0.0.1:42274 - "POST /v1/tts HTTP/1.1" 200 OK
+INFO:     127.0.0.1:42286 - "POST /v1/tts HTTP/1.1" 200 OK
+INFO:     127.0.0.1:42296 - "POST /v1/tts HTTP/1.1" 200 OK
+INFO:     127.0.0.1:42308 - "POST /v1/tts HTTP/1.1" 200 OK
+INFO:     127.0.0.1:39042 - "POST /v1/tts HTTP/1.1" 200 OK
+INFO:     127.0.0.1:39044 - "POST /v1/tts HTTP/1.1" 200 OK
+INFO:     127.0.0.1:39060 - "POST /v1/tts HTTP/1.1" 200 OK
+INFO:     127.0.0.1:39068 - "POST /v1/tts HTTP/1.1" 200 OK
+INFO:     127.0.0.1:39084 - "POST /v1/tts HTTP/1.1" 200 OK
+INFO:     127.0.0.1:39100 - "POST /v1/tts HTTP/1.1" 200 OK
+INFO:     127.0.0.1:39114 - "POST /v1/tts HTTP/1.1" 200 OK
+INFO:     127.0.0.1:39088 - "POST /v1/tts HTTP/1.1" 200 OK
+INFO:     127.0.0.1:39090 - "POST /v1/tts HTTP/1.1" 200 OK
+INFO:     127.0.0.1:39126 - "POST /v1/tts HTTP/1.1" 200 OK
+INFO:     127.0.0.1:39128 - "POST /v1/tts HTTP/1.1" 200 OK
+INFO:     127.0.0.1:39002 - "POST /v1/tts HTTP/1.1" 200 OK
+INFO:     127.0.0.1:39004 - "POST /v1/tts HTTP/1.1" 200 OK
+INFO:     127.0.0.1:39010 - "POST /v1/tts HTTP/1.1" 200 OK
+INFO:     127.0.0.1:39020 - "POST /v1/tts HTTP/1.1" 200 OK
+INFO:     127.0.0.1:39026 - "POST /v1/tts HTTP/1.1" 200 OK
+INFO:     127.0.0.1:39038 - "POST /v1/tts HTTP/1.1" 200 OK
+INFO:     127.0.0.1:39054 - "POST /v1/tts HTTP/1.1" 200 OK
+INFO:     127.0.0.1:38142 - "POST /v1/tts HTTP/1.1" 200 OK
+INFO:     127.0.0.1:38146 - "POST /v1/tts HTTP/1.1" 200 OK
+INFO:     127.0.0.1:38152 - "POST /v1/tts HTTP/1.1" 200 OK
+INFO:     127.0.0.1:38162 - "POST /v1/tts HTTP/1.1" 200 OK
+INFO:     127.0.0.1:38170 - "POST /v1/tts HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54632 - "GET /metrics HTTP/1.1" 200 OK
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [746905]

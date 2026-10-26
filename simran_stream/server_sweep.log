@@ -1,0 +1,138 @@
+[0;93m2026-10-15 14:32:51.664371321 [W:onnxruntime:Default, device_discovery.cc:164 DiscoverDevicesForPlatform] GPU device discovery failed: device_discovery.cc:89 ReadFileContents Failed to open file: "/sys/class/drm/card5/device/vendor"[m
+INFO:     Started server process [1896698]
+INFO:     Waiting for application startup.
+[server] engine 1/8 ready
+[server] engine 2/8 ready
+[server] engine 3/8 ready
+[server] engine 4/8 ready
+[server] engine 5/8 ready
+[server] engine 6/8 ready
+[server] engine 7/8 ready
+[server] engine 8/8 ready
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://127.0.0.1:8030 (Press CTRL+C to quit)
+INFO:     127.0.0.1:53206 - "GET /health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53222 - "POST /v1/tts HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53228 - "POST /v1/tts HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53232 - "POST /v1/tts HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53240 - "POST /v1/tts HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53248 - "POST /v1/tts HTTP/1.1" 200 OK
+INFO:     127.0.0.1:44858 - "POST /v1/tts HTTP/1.1" 200 OK
+INFO:     127.0.0.1:44860 - "POST /v1/tts HTTP/1.1" 200 OK
+INFO:     127.0.0.1:44876 - "POST /v1/tts HTTP/1.1" 200 OK
+INFO:     127.0.0.1:44882 - "POST /v1/tts HTTP/1.1" 200 OK
+INFO:     127.0.0.1:44888 - "POST /v1/tts HTTP/1.1" 200 OK
+INFO:     127.0.0.1:44902 - "POST /v1/tts HTTP/1.1" 200 OK
+INFO:     127.0.0.1:47560 - "POST /v1/tts HTTP/1.1" 200 OK
+INFO:     127.0.0.1:47562 - "POST /v1/tts HTTP/1.1" 200 OK
+INFO:     127.0.0.1:47574 - "POST /v1/tts HTTP/1.1" 200 OK
+INFO:     127.0.0.1:47590 - "POST /v1/tts HTTP/1.1" 200 OK
+INFO:     127.0.0.1:47600 - "POST /v1/tts HTTP/1.1" 200 OK
+INFO:     127.0.0.1:47622 - "POST /v1/tts HTTP/1.1" 200 OK
+INFO:     127.0.0.1:47610 - "POST /v1/tts HTTP/1.1" 200 OK
+INFO:     127.0.0.1:34938 - "POST /v1/tts HTTP/1.1" 200 OK
+INFO:     127.0.0.1:34954 - "POST /v1/tts HTTP/1.1" 200 OK
+INFO:     127.0.0.1:34960 - "POST /v1/tts HTTP/1.1" 200 OK
+INFO:     127.0.0.1:34974 - "POST /v1/tts HTTP/1.1" 200 OK
+INFO:     127.0.0.1:34978 - "POST /v1/tts HTTP/1.1" 200 OK
+INFO:     127.0.0.1:45530 - "POST /v1/tts HTTP/1.1" 200 OK
+INFO:     127.0.0.1:45546 - "POST /v1/tts HTTP/1.1" 200 OK
+INFO:     127.0.0.1:45548 - "POST /v1/tts HTTP/1.1" 200 OK
+INFO:     127.0.0.1:45550 - "POST /v1/tts HTTP/1.1" 200 OK
+INFO:     127.0.0.1:42768 - "POST /v1/tts HTTP/1.1" 200 OK
+INFO:     127.0.0.1:42780 - "POST /v1/tts HTTP/1.1" 200 OK
+INFO:     127.0.0.1:42790 - "POST /v1/tts HTTP/1.1" 200 OK
+INFO:     127.0.0.1:38656 - "POST /v1/tts HTTP/1.1" 200 OK
+INFO:     127.0.0.1:38646 - "POST /v1/tts HTTP/1.1" 200 OK
+INFO:     127.0.0.1:38668 - "POST /v1/tts HTTP/1.1" 200 OK
+INFO:     127.0.0.1:38680 - "POST /v1/tts HTTP/1.1" 200 OK
+INFO:     127.0.0.1:38692 - "POST /v1/tts HTTP/1.1" 200 OK
+INFO:     127.0.0.1:38688 - "POST /v1/tts HTTP/1.1" 200 OK
+INFO:     127.0.0.1:38696 - "POST /v1/tts HTTP/1.1" 200 OK
+INFO:     127.0.0.1:38704 - "POST /v1/tts HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60230 - "POST /v1/tts HTTP/1.1" 200 OK
+INFO:     127.0.0.1:36666 - "POST /v1/tts HTTP/1.1" 200 OK
+INFO:     127.0.0.1:36678 - "POST /v1/tts HTTP/1.1" 200 OK
+INFO:     127.0.0.1:36680 - "POST /v1/tts HTTP/1.1" 200 OK
+INFO:     127.0.0.1:36694 - "POST /v1/tts HTTP/1.1" 200 OK
+INFO:     127.0.0.1:36706 - "POST /v1/tts HTTP/1.1" 200 OK
+INFO:     127.0.0.1:36712 - "POST /v1/tts HTTP/1.1" 200 OK
+INFO:     127.0.0.1:45772 - "POST /v1/tts HTTP/1.1" 200 OK
+INFO:     127.0.0.1:45778 - "POST /v1/tts HTTP/1.1" 200 OK
+INFO:     127.0.0.1:45790 - "POST /v1/tts HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55202 - "POST /v1/tts HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55204 - "POST /v1/tts HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55212 - "POST /v1/tts HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55218 - "POST /v1/tts HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55220 - "POST /v1/tts HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55226 - "POST /v1/tts HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60286 - "POST /v1/tts HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60296 - "POST /v1/tts HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60336 - "POST /v1/tts HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60320 - "POST /v1/tts HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60308 - "POST /v1/tts HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60364 - "POST /v1/tts HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60372 - "POST /v1/tts HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60380 - "POST /v1/tts HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60342 - "POST /v1/tts HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60348 - "POST /v1/tts HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52672 - "POST /v1/tts HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52684 - "POST /v1/tts HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52694 - "POST /v1/tts HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52708 - "POST /v1/tts HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52718 - "POST /v1/tts HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52728 - "POST /v1/tts HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52738 - "POST /v1/tts HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58934 - "POST /v1/tts HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58940 - "POST /v1/tts HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58948 - "POST /v1/tts HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58956 - "POST /v1/tts HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60584 - "POST /v1/tts HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60586 - "POST /v1/tts HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60600 - "POST /v1/tts HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60612 - "POST /v1/tts HTTP/1.1" 200 OK
+INFO:     127.0.0.1:40104 - "POST /v1/tts HTTP/1.1" 200 OK
+INFO:     127.0.0.1:40116 - "POST /v1/tts HTTP/1.1" 200 OK
+INFO:     127.0.0.1:40124 - "POST /v1/tts HTTP/1.1" 200 OK
+INFO:     127.0.0.1:40132 - "POST /v1/tts HTTP/1.1" 200 OK
+INFO:     127.0.0.1:40148 - "POST /v1/tts HTTP/1.1" 200 OK
+INFO:     127.0.0.1:48412 - "POST /v1/tts HTTP/1.1" 200 OK
+INFO:     127.0.0.1:48420 - "POST /v1/tts HTTP/1.1" 200 OK
+INFO:     127.0.0.1:48434 - "POST /v1/tts HTTP/1.1" 200 OK
+INFO:     127.0.0.1:48440 - "POST /v1/tts HTTP/1.1" 200 OK
+INFO:     127.0.0.1:48456 - "POST /v1/tts HTTP/1.1" 200 OK
+INFO:     127.0.0.1:48444 - "POST /v1/tts HTTP/1.1" 200 OK
+INFO:     127.0.0.1:48452 - "POST /v1/tts HTTP/1.1" 200 OK
+INFO:     127.0.0.1:48500 - "POST /v1/tts HTTP/1.1" 200 OK
+INFO:     127.0.0.1:48468 - "POST /v1/tts HTTP/1.1" 200 OK
+INFO:     127.0.0.1:48462 - "POST /v1/tts HTTP/1.1" 200 OK
+INFO:     127.0.0.1:48484 - "POST /v1/tts HTTP/1.1" 200 OK
+INFO:     127.0.0.1:48516 - "POST /v1/tts HTTP/1.1" 200 OK
+INFO:     127.0.0.1:41244 - "POST /v1/tts HTTP/1.1" 200 OK
+INFO:     127.0.0.1:41254 - "POST /v1/tts HTTP/1.1" 200 OK
+INFO:     127.0.0.1:41256 - "POST /v1/tts HTTP/1.1" 200 OK
+INFO:     127.0.0.1:41270 - "POST /v1/tts HTTP/1.1" 200 OK
+INFO:     127.0.0.1:41282 - "POST /v1/tts HTTP/1.1" 200 OK
+INFO:     127.0.0.1:41286 - "POST /v1/tts HTTP/1.1" 200 OK
+INFO:     127.0.0.1:41298 - "POST /v1/tts HTTP/1.1" 200 OK
+INFO:     127.0.0.1:43010 - "POST /v1/tts HTTP/1.1" 200 OK
+INFO:     127.0.0.1:43022 - "POST /v1/tts HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50256 - "POST /v1/tts HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50272 - "POST /v1/tts HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50276 - "POST /v1/tts HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50292 - "POST /v1/tts HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54304 - "POST /v1/tts HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54316 - "POST /v1/tts HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54332 - "POST /v1/tts HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54346 - "POST /v1/tts HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54350 - "POST /v1/tts HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54356 - "POST /v1/tts HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54358 - "POST /v1/tts HTTP/1.1" 200 OK
+INFO:     127.0.0.1:34162 - "POST /v1/tts HTTP/1.1" 200 OK
+INFO:     127.0.0.1:34176 - "POST /v1/tts HTTP/1.1" 200 OK
+INFO:     127.0.0.1:48918 - "POST /v1/tts HTTP/1.1" 200 OK
+INFO:     127.0.0.1:48932 - "POST /v1/tts HTTP/1.1" 200 OK
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [1896698]

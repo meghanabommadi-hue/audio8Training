@@ -1,0 +1,286 @@
+{
+  "base": [
+    {
+      "sentence": 0,
+      "file": "s00_seed0.wav",
+      "wer": 0.07692307692307693,
+      "duration": 4.1331875,
+      "asr": "Hello, thank you for calling Capture Support. How can I help you today?"
+    },
+    {
+      "sentence": 1,
+      "file": "s01_seed0.wav",
+      "wer": 0.21428571428571427,
+      "duration": 4.1331875,
+      "asr": "Your EMI of 12,000 rupees is due on the 5th of every month."
+    },
+    {
+      "sentence": 2,
+      "file": "s02_seed0.wav",
+      "wer": 0.23076923076923078,
+      "duration": 4.9226875,
+      "asr": "Please keep your PN card and add hard card ready for the KYC verification."
+    },
+    {
+      "sentence": 3,
+      "file": "s03_seed0.wav",
+      "wer": 0.16666666666666666,
+      "duration": 4.644,
+      "asr": "I have raised the ticket for you and our team will call you back within 24 hours."
+    },
+    {
+      "sentence": 4,
+      "file": "s04_seed0.wav",
+      "wer": 0.0,
+      "duration": 5.2013125,
+      "asr": "You can pay using UPI, net banking or a debit card through our mobile app."
+    },
+    {
+      "sentence": 5,
+      "file": "s05_seed0.wav",
+      "wer": 0.07692307692307693,
+      "duration": 5.2013125,
+      "asr": "Mr. Venkatesh, your policy renewal from Star Health is pending since last week."
+    },
+    {
+      "sentence": 6,
+      "file": "s06_seed0.wav",
+      "wer": 0.15384615384615385,
+      "duration": 5.2941875,
+      "asr": "We have a branch in Khoramangala, Bangalore and another one in Anderi, Mumbai."
+    },
+    {
+      "sentence": 7,
+      "file": "s07_seed0.wav",
+      "wer": 0.0,
+      "duration": 3.622375,
+      "asr": "Kindly do the needful and revert back to us at the earliest."
+    },
+    {
+      "sentence": 8,
+      "file": "s08_seed0.wav",
+      "wer": 0.07692307692307693,
+      "duration": 5.154875,
+      "asr": "Your order from Lenskart has been dispatched and will reach Hydrobyte by Thursday."
+    },
+    {
+      "sentence": 9,
+      "file": "s09_seed0.wav",
+      "wer": 0.14285714285714285,
+      "duration": 4.5046875,
+      "asr": "I completely understand your concern mom, let me check the status for you."
+    },
+    {
+      "sentence": 0,
+      "file": "s00_seed1.wav",
+      "wer": 0.07692307692307693,
+      "duration": 3.6688125,
+      "asr": "Hello, thank you for calling Capture Support. How can I help you today?"
+    },
+    {
+      "sentence": 1,
+      "file": "s01_seed1.wav",
+      "wer": 0.21428571428571427,
+      "duration": 4.365375,
+      "asr": "Your EMI of 12,000 rupees is due on the 5th of every month."
+    },
+    {
+      "sentence": 2,
+      "file": "s02_seed1.wav",
+      "wer": 0.23076923076923078,
+      "duration": 4.9226875,
+      "asr": "Please keep your Pay-end card and ADAR card ready for the KYC verification."
+    },
+    {
+      "sentence": 3,
+      "file": "s03_seed1.wav",
+      "wer": 0.1111111111111111,
+      "duration": 4.9226875,
+      "asr": "I have raised a ticket for you and our team will call you back within 24 hours."
+    },
+    {
+      "sentence": 4,
+      "file": "s04_seed1.wav",
+      "wer": 0.0,
+      "duration": 5.062,
+      "asr": "You can pay using UPI, net banking or a debit card through our mobile app."
+    },
+    {
+      "sentence": 5,
+      "file": "s05_seed1.wav",
+      "wer": 0.15384615384615385,
+      "duration": 5.340625,
+      "asr": "Mr Venkatish, your policy renewal from Star Health is pending since last week."
+    },
+    {
+      "sentence": 6,
+      "file": "s06_seed1.wav",
+      "wer": 0.07692307692307693,
+      "duration": 6.501625,
+      "asr": "We have a branch in Koramangala, Bangalore and another one in Anteri, Mumbai."
+    },
+    {
+      "sentence": 7,
+      "file": "s07_seed1.wav",
+      "wer": 0.0,
+      "duration": 3.622375,
+      "asr": "Kindly do the needful and revert back to us at the earliest."
+    },
+    {
+      "sentence": 8,
+      "file": "s08_seed1.wav",
+      "wer": 0.07692307692307693,
+      "duration": 5.2013125,
+      "asr": "Your order from Landskart has been dispatched and will reach Hyderabad by Thursday."
+    },
+    {
+      "sentence": 9,
+      "file": "s09_seed1.wav",
+      "wer": 0.0,
+      "duration": 5.154875,
+      "asr": "I completely understand your concern ma'am. Let me check the status for you."
+    }
+  ],
+  "tuned": [
+    {
+      "sentence": 0,
+      "file": "s00_seed0.wav",
+      "wer": 0.15384615384615385,
+      "duration": 3.483,
+      "asr": "Thank you for calling Capture Support. How can I help you today?"
+    },
+    {
+      "sentence": 1,
+      "file": "s01_seed0.wav",
+      "wer": 0.2857142857142857,
+      "duration": 4.87625,
+      "asr": "If EMI of 12,000 rupees is due on the 5th of every month,"
+    },
+    {
+      "sentence": 2,
+      "file": "s02_seed0.wav",
+      "wer": 0.07692307692307693,
+      "duration": 5.8514375,
+      "asr": "Please keep your PAN card and ATA card ready for the KYC verification."
+    },
+    {
+      "sentence": 3,
+      "file": "s03_seed0.wav",
+      "wer": 0.2777777777777778,
+      "duration": 4.551125,
+      "asr": "I phrase the ticket for you and our team will call you back within 24 hours."
+    },
+    {
+      "sentence": 4,
+      "file": "s04_seed0.wav",
+      "wer": 0.06666666666666667,
+      "duration": 5.4335,
+      "asr": "We can pay using UPI, net banking or a debit card through our mobile app."
+    },
+    {
+      "sentence": 5,
+      "file": "s05_seed0.wav",
+      "wer": 0.15384615384615385,
+      "duration": 8.5914375,
+      "asr": "Stavinka Tish. Your policy renewal from Star Health is pending since last week."
+    },
+    {
+      "sentence": 6,
+      "file": "s06_seed0.wav",
+      "wer": 0.3076923076923077,
+      "duration": 4.45825,
+      "asr": "I have a branch in Kauramangala, Bangalore and another one in Nantedi."
+    },
+    {
+      "sentence": 7,
+      "file": "s07_seed0.wav",
+      "wer": 0.16666666666666666,
+      "duration": 3.390125,
+      "asr": "Gently do the needful and revert back to us at the earliest stir."
+    },
+    {
+      "sentence": 8,
+      "file": "s08_seed0.wav",
+      "wer": 0.23076923076923078,
+      "duration": 7.8019375,
+      "asr": "Lenskart has been dispatched and will reach Hyderabad by Thursday"
+    },
+    {
+      "sentence": 9,
+      "file": "s09_seed0.wav",
+      "wer": 0.7142857142857143,
+      "duration": 2.55425,
+      "asr": "to completely understand your concern mom."
+    },
+    {
+      "sentence": 0,
+      "file": "s00_seed1.wav",
+      "wer": 0.15384615384615385,
+      "duration": 4.551125,
+      "asr": "Thank you for calling Capture Support. How can I help you today?"
+    },
+    {
+      "sentence": 1,
+      "file": "s01_seed1.wav",
+      "wer": 0.2857142857142857,
+      "duration": 4.0403125,
+      "asr": "Your EMI of Rs.12,000 is due on the 5th of every month."
+    },
+    {
+      "sentence": 2,
+      "file": "s02_seed1.wav",
+      "wer": 0.07692307692307693,
+      "duration": 4.2260625,
+      "asr": "Please keep your PAN card and AADAR card ready for the KYC verification."
+    },
+    {
+      "sentence": 3,
+      "file": "s03_seed1.wav",
+      "wer": 0.1111111111111111,
+      "duration": 4.08675,
+      "asr": "I have raised a ticket for you and our team will call you back within 24 hours."
+    },
+    {
+      "sentence": 4,
+      "file": "s04_seed1.wav",
+      "wer": 0.0,
+      "duration": 4.1331875,
+      "asr": "You can pay using UPI net banking or a debit card through our mobile app."
+    },
+    {
+      "sentence": 5,
+      "file": "s05_seed1.wav",
+      "wer": 0.15384615384615385,
+      "duration": 4.736875,
+      "asr": "Katsivenkets, your policy renewal from Star Health is pending since last week."
+    },
+    {
+      "sentence": 6,
+      "file": "s06_seed1.wav",
+      "wer": 0.23076923076923078,
+      "duration": 4.7833125,
+      "asr": "They have a branch in Koromangala, Bangalore and another one in Anteri, Mumbai."
+    },
+    {
+      "sentence": 7,
+      "file": "s07_seed1.wav",
+      "wer": 0.8333333333333334,
+      "duration": 1.76475,
+      "asr": "to the needful"
+    },
+    {
+      "sentence": 8,
+      "file": "s08_seed1.wav",
+      "wer": 0.07692307692307693,
+      "duration": 4.45825,
+      "asr": "Your order from Lenskart has been dispatched and will reach Hirebid by Thursday."
+    },
+    {
+      "sentence": 9,
+      "file": "s09_seed1.wav",
+      "wer": 0.0,
+      "duration": 4.0403125,
+      "asr": "I completely understand your concern ma'am let me check the status for you."
+    }
+  ]
+}
